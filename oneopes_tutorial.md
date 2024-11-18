@@ -297,7 +297,7 @@ OPES_METAD_EXPLORE ...
 ... OPES_METAD_EXPLORE
 
 # Then update the print statement
-PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11 STRIDE=50 FILE=COLVAR FMT=%8.4f
+PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9 STRIDE=50 FILE=COLVAR FMT=%8.4f
 ```
 
 ### Replica 1
@@ -388,7 +388,7 @@ OPES_METAD_EXPLORE ...
 ... OPES_METAD_EXPLORE
 
 # Update print statement
-PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,opese1.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
+PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,opese1.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
 ```
 ### Replica 2
 Add CV to previous replica:
@@ -488,7 +488,7 @@ OPES_METAD_EXPLORE ...
 ... OPES_METAD_EXPLORE
 
 # Update print statement
-PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,opese1.bias,opese2.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
+PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,opese1.bias,opese2.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
 ```
 
 ### Replica 3
@@ -599,7 +599,7 @@ OPES_METAD_EXPLORE ...
 
 # Update print statement
 
-PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,ene,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,opese1.bias,opese2.bias,opese3.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
+PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,ene,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,opese1.bias,opese2.bias,opese3.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
 ```
 ### Replica 4
 Add ECV_MULTITHERMAL to previous replica:
@@ -726,7 +726,7 @@ OPES_METAD_EXPLORE ...
 ... OPES_METAD_EXPLORE
 
 # Update print statement
-PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,ene,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,opesX.bias,opese1.bias,opese2.bias,opese3.bias,opese4.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
+PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,ene,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,opesX.bias,opese1.bias,opese2.bias,opese3.bias,opese4.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
 ```
 ### Replica 5
 Increase temperature of ECV_MULTITHERMAL:
@@ -864,7 +864,7 @@ OPES_METAD_EXPLORE ...
 ... OPES_METAD_EXPLORE
 
 # Update print statement
-PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,ene,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,opesX.bias,opese1.bias,opese2.bias,opese3.bias,opese4.bias,opese5.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
+PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,ene,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,opesX.bias,opese1.bias,opese2.bias,opese3.bias,opese4.bias,opese5.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
 ```
 ### Replica 6
 Increase temperature:
@@ -1013,7 +1013,7 @@ OPES_METAD_EXPLORE ...
 ... OPES_METAD_EXPLORE
 
 # Update print statement
-PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,ene,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,opesX.bias,opese1.bias,opese2.bias,opese3.bias,opese4.bias,opese5.bias,opese6.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
+PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,ene,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,opesX.bias,opese1.bias,opese2.bias,opese3.bias,opese4.bias,opese5.bias,opese6.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
 ```
 ### Replica 7
 Increase temperature:
@@ -1173,7 +1173,7 @@ OPES_METAD_EXPLORE ...
 ... OPES_METAD_EXPLORE
 
 # Update print statement
-PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,ene,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,V10,V11,opesX.bias,opese1.bias,opese2.bias,opese3.bias,opese4.bias,opese5.bias,opese6.bias,opese7.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
+PRINT ARG=opes.bias,cyl.z,radius,funnelwall.bias,upper_wall.bias,lower_wall.bias,ene,cosang,L1,L2,L3,L4,V1,V2,V3,V4,V5,V6,V7,V8,V9,opesX.bias,opese1.bias,opese2.bias,opese3.bias,opese4.bias,opese5.bias,opese6.bias,opese7.bias STRIDE=50 FILE=COLVAR FMT=%8.4f
 ```
 ## 5. Running OneOPES Simulation
 Create 8 directories, named from 0 to 7. Copy the tpr, topology and gro files, the host_template.pdb and the corresponding plumed.dat file to each folder. Then run OneOpes multireplica with the displayed mpirun command. 
